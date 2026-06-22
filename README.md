@@ -27,7 +27,7 @@ Reconstruction accuracy is evaluated using Procrustes analysis, with an overall 
 
 ## How to run: 
 
-- If using loaded data, edit the file path in load_data
+- If using loaded data, edit the file path in load_points3D
 
 - In `master.m`, comment out unselected options for steps 1 and 3, and choose k in step 2 (e.g. k = 10)
 

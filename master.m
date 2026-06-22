@@ -3,13 +3,13 @@ clc; clear; close all;
 %% 1. Use generated (1a) or loaded (1b) data and choose shape
 
 % 1a. Choose 3D surface to generate (bump/tube/tube_stretch/valley)
-resolution = 40;
-shape_type = 'tube_stretch';
-points = generate_3D_surface(shape_type,resolution);
+% resolution = 40;
+% shape_type = 'tube_stretch';
+% points = generate_3D_surface(shape_type,resolution);
 
 % 1b. Choose 3D surface to load (puff/pout/smile/open, unstretched/stretched)
-% face_type = 'open_unstretched';
-% points = load_data(face_type);
+face_type = 'open_stretched';
+points = load_points3D(face_type);
 
 %% 2. Choose geodesic approximation and output distance matrix
 
